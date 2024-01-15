@@ -1,66 +1,23 @@
-**Projeto de Análise de Dados para Redução de Cancelamentos de Clientes**
+# Análise de Cancelamentos
 
----
+Este projeto utiliza análise de dados para identificar padrões de cancelamento de contratos e propor soluções para reduzir a taxa de cancelamentos.
 
-**Cliente:** NEO BPO
-**Setor:** Serviços de Telecomunicações
-**Desafio:** Reduzir a taxa de cancelamentos entre mais de 800 mil clientes inativos.
+## Tecnologias Utilizadas
+- **Pandas**: Utilizado para manipulação e análise de dados.
+- **Plotly Express**: Utilizado para a criação de gráficos interativos.
 
----
+## Como Usar
+1. Clone o repositório para sua máquina local.
+2. Instale as dependências necessárias com `pip install -r requirements.txt`.
+3. Execute o script principal para ver a análise e os gráficos gerados.
 
-**Contexto:**
-A Empresa NEO BPO é uma prestadora de serviços online com uma vasta base de clientes, contando com mais de 800 mil usuários. Recentemente, a empresa identificou um desafio significativo relacionado à quantidade de clientes inativos, ou seja, aqueles que cancelaram os serviços fornecidos pela empresa.
+## Finalidade
+O objetivo deste projeto é fornecer insights sobre os fatores que contribuem para o cancelamento de contratos, permitindo que a empresa tome medidas preventivas para melhorar a retenção de clientes.
 
----
-
-**Objetivo do Projeto:**
-O principal objetivo do projeto é realizar uma análise de dados abrangente para compreender os motivos que levam os clientes a cancelarem seus serviços e, com base nessa análise, desenvolver estratégias eficientes para reduzir o número de cancelamentos.
-
----
-
-**Escopo do Projeto:**
-
-1. **Coleta de Dados:**
-   - Levantamento de dados de clientes inativos, incluindo informações demográficas, histórico de uso e padrões de comportamento.
-   - Identificação de variáveis relevantes, como tempo de permanência do cliente, categoria de serviço, entre outros.
-
-2. **Análise Exploratória:**
-   - Exploração inicial dos dados para identificar tendências e padrões.
-   - Identificação de características comuns entre clientes que cancelaram o serviço.
-
-3. **Análise de Motivos de Cancelamento:**
-   - Identificação dos principais motivos de cancelamento por meio de técnicas analíticas.
-   - Categorização dos motivos em grupos para uma compreensão mais clara.
-
-4. **Desenvolvimento de Modelos Preditivos:**
-   - Utilização de técnicas de machine learning para criar modelos preditivos de cancelamento.
-   - Avaliação da eficácia dos modelos na previsão de cancelamentos futuros.
+## Como Contribuir
+Contribuições são sempre bem-vindas! Aqui estão algumas maneiras de contribuir:
+- **Reportar Bugs**: Abra uma issue descrevendo o problema encontrado.
+- **Sugerir Melhorias**: Tem uma ideia para tornar o projeto melhor? Compartilhe-a como uma issue.
+- **Enviar Pull Requests**: Faça fork do repositório, faça suas alterações e envie um PR com uma descrição clara das mudanças propostas.
 
 
----
-
-**Benefícios Esperados:**
-- Redução significativa na taxa de cancelamentos.
-- Melhoria na satisfação do cliente.
-- Otimização dos recursos investidos em retenção de clientes.
-
----
-
-**Papel do Desenvolvedor:**
-Como desenvolvedor, meu papel crucial nesse primeiro momento será coletar, processar e analisar os dados.
-
----
-
-**Entregáveis Esperados:**
-- Relatório de análise de dados com insights e recomendações.
-- Modelos preditivos implementados.
-
-
----
-
-**Próximos Passos:**
-- Reunião inicial para discussão detalhada dos requisitos.
-- Levantamento de acesso aos dados necessários.
-- Planejamento detalhado das etapas do projeto.
-
----
